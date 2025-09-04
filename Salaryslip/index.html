@@ -17,37 +17,76 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <h2 class="text-center">Salary Slip</h2>
+                <h2 class="text-center my-4">Salary Slip</h2>
                 <form action="" method="post" onsubmit="return false">
                     <div class="mb-3">
-                        <input type="text" class="form-control" name="ename" id="ename" placeholder="Employee Name" />
+                        <label class="form-label" for="ename">Employee Name</label>
+                        <input type="text" class="form-control" name="ename" id="ename"
+                            placeholder="Enter Employee Name" />
                     </div>
                     <div class="mb-3">
-                        <input type="number" class="form-control" name="bsalary" id="bsalary"
-                            placeholder="Basic Salary" />
+                        <label class="form-label" for="bsalary">Basic Salary</label>
+                        <div class="input-group">
+                            <input type="number" class="form-control" name="bsalary" id="bsalary"
+                                placeholder="Enter Basic Salary" />
+                            <span class="input-group-text">₹</span>
+                        </div>
                     </div>
                     <div class="mb-3">
-                        <input type="number" class="form-control" name="hra" id="hra"
-                            placeholder="House Rent Allowance" />
+                        <label class="form-label" for="hra">House Rent Allowance</label>
+                        <div class="input-group">
+                            <input type="number" class="form-control" name="hra" id="hra"
+                                placeholder="Enter House Rent Allowance" />
+                            <span class="input-group-text">%</span>
+                        </div>
                     </div>
                     <div class="mb-3">
-                        <input type="number" class="form-control" name="da" id="da" placeholder="Dearness Allowance" />
+                        <label class="form-label" for="da">Dearness Allowance</label>
+                        <div class="input-group">
+                            <input type="number" class="form-control" name="da" id="da"
+                                placeholder="Enter Dearness Allowance" />
+                            <span class="input-group-text">%</span>
+                        </div>
                     </div>
                     <div class="mb-3">
-                        <input type="number" class="form-control" name="ta" id="ta" placeholder="Travel Allowance" />
+                        <label class="form-label" for="ta">Travel Allowance</label>
+                        <div class="input-group">
+                            <input type="number" class="form-control" name="ta" id="ta"
+                                placeholder="Enter Travel Allowance" />
+                            <span class="input-group-text">%</span>
+                        </div>
                     </div>
                     <div class="mb-3">
-                        <input type="number" class="form-control" name="ma" id="ma" placeholder="Medical Allowance" />
+                        <label class="form-label" for="ma">Medical Allowance</label>
+                        <div class="input-group">
+                            <input type="number" class="form-control" name="ma" id="ma"
+                                placeholder="Enter Medical Allowance" />
+                            <span class="input-group-text">%</span>
+                        </div>
                     </div>
                     <div class="mb-3">
-                        <input type="number" class="form-control" name="pf" id="pf" placeholder="Provident Fund" />
+                        <label class="form-label" for="pf">Provident Fund</label>
+                        <div class="input-group">
+                            <input type="number" class="form-control" name="pf" id="pf"
+                                placeholder="Enter Provident Fund" />
+                            <span class="input-group-text">%</span>
+                        </div>
                     </div>
                     <div class="mb-3">
-                        <input type="number" class="form-control" name="tds" id="tds"
-                            placeholder="Tax Deducted at Source" />
+                        <label class="form-label" for="tds">Tax Deducted at Source</label>
+                        <div class="input-group">
+                            <input type="number" class="form-control" name="tds" id="tds"
+                                placeholder="Enter Tax Deducted at Source" />
+                            <span class="input-group-text">%</span>
+                        </div>
                     </div>
                     <div class="mb-3">
-                        <input type="number" class="form-control" name="pt" id="pt" placeholder="Profession Tax" />
+                        <label class="form-label" for="pt">Profession Tax</label>
+                        <select class="form-select" name="pt" id="pt">
+                            <option value="0">0</option>
+                            <option value="200" selected>200</option>
+                        </select>
+
                     </div>
                     <div class="mb-3 text-center">
                         <button class="btn btn-primary" onclick="display()">Print Salary Slip</button>

@@ -10,7 +10,7 @@
 
 ### Salary Slip
 
-![SalarySlip](<Screenshot 2025-09-04 183745.png>)
+![alt text](<Screenshot 2025-09-04 192431.png>)
 ![SalarySlip](<Screenshot 2025-09-04 183809-1.png>)
 
 ## Day12 - Function with parameter
