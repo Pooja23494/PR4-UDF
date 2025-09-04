@@ -31,18 +31,18 @@ const display = () => {
     let net = gross - deduction;
 
 
-    let empname = document.getElementById('empname').innerText=employeen;
-    let basics = document.getElementById('basics').innerText=basicsalary;
-    let housea = document.getElementById('housea').innerText=hra1;
-    let dearnessa = document.getElementById('dearnessa').innerText=da1;
-    let travela = document.getElementById('travela').innerText=ta1;
-    let medicala = document.getElementById('medicala').innerText=ma1;
-    let providentf = document.getElementById('providentf').innerText=pf1;
-    let taxs = document.getElementById('taxs').innerText=tds1;
-    let professionalt = document.getElementById('professionalt').innerText=ptax;
-    let gsalary = document.getElementById('gsalary').innerText=gross;
-    let deduct = document.getElementById('deduct').innerText=deduction;
-    let nsalary = document.getElementById('nsalary').innerText=net;
+    let empname = document.getElementById('empname').innerText = employeen;
+    let basics = document.getElementById('basics').innerText = '₹ ' + basicsalary;
+    let housea = document.getElementById('housea').innerText = '₹ ' + hra1;
+    let dearnessa = document.getElementById('dearnessa').innerText = '₹ ' + da1;
+    let travela = document.getElementById('travela').innerText = '₹ ' + ta1;
+    let medicala = document.getElementById('medicala').innerText = '₹ ' + ma1;
+    let providentf = document.getElementById('providentf').innerText = '₹ ' + pf1;
+    let taxs = document.getElementById('taxs').innerText = '₹ ' + tds1;
+    let professionalt = document.getElementById('professionalt').innerText = '₹ ' + ptax;
+    let gsalary = document.getElementById('gsalary').innerText = '₹ ' + gross;
+    let deduct = document.getElementById('deduct').innerText = '₹ ' + deduction;
+    let nsalary = document.getElementById('nsalary').innerText = '₹ ' + net;
 
     ename.value = '';
     bsalary.value = '';
